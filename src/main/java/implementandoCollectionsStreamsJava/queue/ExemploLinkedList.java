@@ -54,7 +54,9 @@ public class ExemploLinkedList {
 		
 		System.out.println(filaBanco.isEmpty());
 		
-//		filaBanco.clear();
+		filaBanco.clear();
+		
+		filaBanco.poll();
 		
 		System.out.println(filaBanco.isEmpty());
 		
